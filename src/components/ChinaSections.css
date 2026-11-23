@@ -1,0 +1,410 @@
+
+/* Officially in China */
+
+.china-presence {
+  padding: 100px 7%;
+  display: grid;
+  grid-template-columns: 1fr 0.85fr;
+  align-items: center;
+  gap: 75px;
+  background: #17243a;
+  color: #ffffff;
+}
+
+.china-presence .section-eyebrow {
+  color: #f19a6d;
+}
+
+.china-presence-content h2,
+.trips-heading h2 {
+  font-size: clamp(32px, 3.5vw, 45px);
+  line-height: 1.2;
+  letter-spacing: -1.5px;
+  margin-bottom: 22px;
+}
+
+.china-presence-content h2 span {
+  color: #f19a6d;
+}
+
+.china-intro {
+  color: #c1c9d4;
+  font-size: 14px;
+  line-height: 1.9;
+  margin-bottom: 28px;
+}
+
+.china-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.china-benefit {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.china-benefit > span {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  background: rgba(241, 154, 109, 0.15);
+  color: #f19a6d;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.china-benefit p {
+  color: #e0e5ec;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+/* Business licence card */
+
+.licence-card {
+  padding: 30px;
+  background: #fffdf9;
+  border-radius: 13px;
+  color: #28364a;
+  box-shadow: 0 20px 55px rgba(0, 0, 0, 0.18);
+  transform: rotate(1deg);
+}
+
+.licence-top {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.licence-symbol {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  background: #fff0e7;
+  color: #bd5931;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.licence-top div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.licence-top strong {
+  font-size: 16px;
+}
+
+.licence-top small {
+  color: #89909b;
+  font-size: 9px;
+  letter-spacing: 1.4px;
+}
+
+.licence-seal {
+  margin-left: auto;
+  width: 39px;
+  height: 39px;
+  border: 2px solid #bd5931;
+  color: #bd5931;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 19px;
+}
+
+.licence-divider {
+  height: 1px;
+  background: #e7e1d9;
+  margin: 24px 0;
+}
+
+.licence-information {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.licence-information span {
+  color: #969ba3;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.licence-information strong {
+  color: #29374a;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.licence-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 27px;
+  padding-top: 18px;
+  border-top: 1px dashed #d9d1c6;
+  color: #bd5931;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+/* China business trips */
+
+.china-trips {
+  padding: 100px 7%;
+  background: #faf9f7;
+}
+
+.trips-heading {
+  max-width: 720px;
+  text-align: center;
+  margin: 0 auto 50px;
+}
+
+.trips-heading h2 {
+  color: #17243a;
+}
+
+.trips-heading h2 span {
+  color: #e76b32;
+}
+
+.trips-heading > p {
+  color: #737d8b;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.trips-layout {
+  display: grid;
+  grid-template-columns: 1fr 0.85fr;
+  gap: 25px;
+  align-items: stretch;
+}
+
+.canton-card {
+  background: #ffffff;
+  border: 1px solid #e9e9e9;
+  border-radius: 13px;
+  overflow: hidden;
+}
+
+.canton-image {
+  min-height: 260px;
+  padding: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 80% 20%, #f8bd91 0%, transparent 35%),
+    linear-gradient(140deg, #263e56, #435f72);
+}
+
+.canton-image::after {
+  content: "";
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  right: -60px;
+  bottom: -130px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  box-shadow: 0 0 0 25px rgba(255, 255, 255, 0.04),
+    0 0 0 50px rgba(255, 255, 255, 0.04);
+}
+
+.canton-tag {
+  z-index: 1;
+  align-self: flex-start;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  font-size: 9px;
+  font-weight: 750;
+  letter-spacing: 1px;
+}
+
+.canton-image-content {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.canton-icon {
+  font-size: 35px;
+}
+
+.canton-image-content h3 {
+  font-size: 23px;
+  margin: 10px 0;
+}
+
+.canton-image-content p {
+  color: #e4e9ee;
+  font-size: 12px;
+}
+
+.canton-description {
+  padding: 28px;
+}
+
+.canton-description h3 {
+  color: #17243a;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.canton-description > p {
+  color: #737d8b;
+  font-size: 13px;
+  line-height: 1.8;
+  margin-bottom: 22px;
+}
+
+.destination-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.destination-list span {
+  padding: 8px 12px;
+  background: #fff1e9;
+  color: #a85b36;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 650;
+}
+
+.trips-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.trip-inclusions,
+.departure-card {
+  padding: 27px;
+  background: #ffffff;
+  border: 1px solid #e9e9e9;
+  border-radius: 13px;
+}
+
+.trip-inclusions h3 {
+  color: #17243a;
+  font-size: 19px;
+  margin-bottom: 22px;
+}
+
+.inclusion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.inclusion-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #596576;
+  font-size: 12px;
+}
+
+.inclusion-item span {
+  color: #e76b32;
+  font-weight: 800;
+}
+
+.departure-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.departure-icon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  background: #fff1e9;
+  border-radius: 9px;
+  font-size: 21px;
+}
+
+.departure-item strong {
+  color: #263348;
+  font-size: 13px;
+}
+
+.departure-item p {
+  color: #89909b;
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.trip-button {
+  display: block;
+  margin-top: 22px;
+  padding: 14px;
+  text-align: center;
+  background: #e76b32;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  transition: background 0.2s;
+}
+
+.trip-button:hover {
+  background: #c95625;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .china-presence {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .trips-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 550px) {
+  .china-presence,
+  .china-trips {
+    padding: 65px 5%;
+  }
+
+  .licence-card {
+    padding: 20px;
+  }
+
+  .licence-bottom {
+    font-size: 8px;
+  }
+
+  .canton-image {
+    min-height: 230px;
+  }
+}
